@@ -42,8 +42,8 @@ https://github.com/AlexanderBiskup/mimo
 
 To be able to run the demo the following requirements have to be installed on your machine:
 
-1. Docker (v19.03.8)
-2. docker-compose (version 1.25.4)
+1. [Docker](https://docs.docker.com/desktop/) (v19.03.8)
+2. [Docker Compose](https://docs.docker.com/compose/install/) (version 1.25.4)
 
 ## 4.2. How to start up the applications
 
