@@ -83,7 +83,7 @@ docker-compose up
 
 In this demo you're going to generate multiple datasets automatically, create a user, an account and a payment manually, and migrate the data to the NoSQL application.
 
-Please make sure you followed the [startup instructions](#42-how-to-start-up-the-applications).
+Please make sure you followed the [start up instructions](#42-how-to-start-up-the-applications).
 
 ### 4.3.1. Prepare Data
 
