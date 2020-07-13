@@ -33,6 +33,8 @@ git clone https://github.com/AlexanderBiskup/find-me-a-seat
 ## 4.3. Guided Demo
 In this demo you are going to find a university building, mark it as favorite and book a seat in this building.
 
+Please make sure you followed the [start up instructions](#42-how-to-start-the-application).
+
 1. Login with Benutzername **student1** and Passwort **student**
 2. Navigate to "Gebäude" in the bottom navigation
 3. Search for "Informatik" and select "Fakultät für Informatik"
