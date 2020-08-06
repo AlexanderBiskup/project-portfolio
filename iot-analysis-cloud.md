@@ -118,7 +118,7 @@ docker-compose up ms3 ms3-web-client ms4 ms5
 Please make sure you followed the [start up instructions](#52-how-to-start-up-the-applications).
 
 1. Visit the ms3-web-client at http://localhost:8080 and click "Connect". You should now see the temperature data graph. You can toggle to temperature analyzed in the top-left corner to see the predictions produced by MS4.
-2.  Go to the terminal window were you started ms2-cli-client. 
+2. Go to the terminal window where you started ms2-cli-client. 
 3. Use the command "messages" to see how many messages have been exchanged so far.
 4. Use the command "clients" to see details about the connected clients.
-5. Copy the id of one client and use the command "terminate-client --id \<client-id\>]". The service you've selected should shutdown immediately and the message flow stop.
+5. Copy the id of one client and use the command "terminate-client --id \<client-id\>]". The service you've selected should shutdown immediately and the message flow should stop.
