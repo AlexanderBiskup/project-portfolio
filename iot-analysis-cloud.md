@@ -45,7 +45,7 @@ This service simulates basic IoT-sensors which produce and publish, depending on
 
 # 3. Project Repository
 
-https://github.com/AlexanderBiskup/iot-analysis-cloud
+https://gitlab.com/AlexBiskup-university/iot-analysis-cloud.git
 
 # 4. Tech Stack
 
@@ -70,7 +70,7 @@ Please make sure the Docker Engine is up and running
 
 1. Clone the repository 
 ```bash
-git clone https://github.com/AlexanderBiskup/iot-analysis-cloud
+git clone https://gitlab.com/AlexBiskup-university/iot-analysis-cloud.git
 ```
 
 2. Go to the project directory
@@ -80,7 +80,7 @@ cd iot-analysis-cloud
 
 3. Checkout the demo branch
 ```bash
-git checkout -b demo remotes/origin/demo
+git checkout demo
 ```
 
 4. Go to the demo directory
@@ -88,27 +88,22 @@ git checkout -b demo remotes/origin/demo
 cd demo
 ```
 
-5. Build the project by running the build script (this may take a few minutes)
-```bash
-./build.sh
-```
-
-6. Start MS1
+5. Start MS1
 ```bash
 docker-compose up ms1
 ```
 
-7. Start MS2 in a new terminal window
+6. Start MS2 in a new terminal window
 ```bash
 docker-compose up ms2
 ```
 
-8. Start ms2-cli-client in new terminal window
+7. Start ms2-cli-client in a new terminal window
 ```bash
 docker-compose run --rm ms2-cli-client
 ```
 
-9. Start MS3, ms3-web-client, MS4 and MS5 in a new terminal window
+8. Start MS3, ms3-web-client, MS4 and MS5 in a new terminal window
 ```bash
 docker-compose up ms3 ms3-web-client ms4 ms5
 ```
@@ -122,3 +117,9 @@ Please make sure you followed the [start up instructions](#52-how-to-start-up-th
 3. Use the command "messages" to see how many messages have been exchanged so far.
 4. Use the command "clients" to see details about the connected clients.
 5. Copy the id of one client and use the command "terminate-client --id \<client-id\>]". The service you've selected should shutdown immediately and the message flow should stop.
+
+## 5.4 Cleanup
+
+```bash
+sh cleanup.sh
+```
