@@ -1,5 +1,5 @@
 # Project portfolio
-This repository contains documentation about a selection of the most interesting, non-commercial projects I was part of.
+This repository contains documentation about a selection of non-commercial projects I was part of.
 Each markdown file describes a particular project and also contains instructions for starting a demo and exploring the applications.
 
 Here's a list of the available projects:
