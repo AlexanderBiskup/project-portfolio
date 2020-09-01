@@ -64,7 +64,7 @@ cd mimo
 3. Checkout the demo branch
 
 ```bash
-git checkout -b demo remotes/origin/demo
+git checkout demo
 ```
 
 4. Go to the demo directory
