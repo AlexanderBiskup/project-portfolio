@@ -14,7 +14,7 @@ The main goals of this assignment were to:
 
 # 2. Project Repository
 
-https://github.com/AlexanderBiskup/mimo
+https://gitlab.com/AlexBiskup-university/mimo.git
 
 ### 2.1. Branches
 
@@ -52,7 +52,7 @@ Please make sure the Docker Engine is up and running
 1. Clone the repository 
 
 ```bash
-git clone https://github.com/AlexanderBiskup/mimo
+git clone https://gitlab.com/AlexBiskup-university/mimo.git
 ```
 
 2. Go to the project directory
