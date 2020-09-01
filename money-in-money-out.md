@@ -106,3 +106,8 @@ Please make sure you followed the [start up instructions](#42-how-to-start-up-th
 4. Go to the [migration tool](http://localhost:8090/migration) at path "/migration" and click Migrate
 5. Logout and login again with the user you created in mimo-mysql
 6. Verify your data is there
+
+## 4.4. Cleanup
+```bash
+./cleanup.sh
+```
