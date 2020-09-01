@@ -43,19 +43,15 @@ cd meet-in
 
 3. Checkout the demo branch
 ```bash
-git checkout -b demo remotes/origin/demo
+git checkout demo
 ```
 
 4. Go to the demo directory
 ```bash
 cd demo
 ```
-5. Build frontend and REST API by running the build script (this may take a few minutes)
-```bash
-./build.sh
-```
 
-6. Start the apps with docker
+5. Start the apps with docker
 ```bash
 docker-compose up
 ```
@@ -80,3 +76,8 @@ Please make sure you followed the [start up instructions](#42-how-to-start-up-th
 8. Create a new appointment by clicking "Neuer Termin"
 
 You can also explore the settings of the project by selecting "Einstellungen"
+
+## 4.4. Cleanup
+```bash
+sh cleanup.sh
+```
