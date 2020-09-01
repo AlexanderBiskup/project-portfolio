@@ -10,14 +10,14 @@ https://gitlab.com/AlexBiskup/meet-in
 
 # 3. Tech Stack
 ## 3.1. Frontend
-- Typescript 
-- React (with hooks)
-- Semantic UI
+- [Typescript](https://www.typescriptlang.org/) 
+- [React](https://reactjs.org/) ([with hooks](https://reactjs.org/docs/hooks-intro.html))
+- [Semantic UI React](https://react.semantic-ui.com/)
 
 ## 3.2. REST API
-- Kotlin JVM
-- Spring Boot (Web, Security, Data JPA, Flyway)
-- MySQL
+- [Kotlin JVM](https://kotlinlang.org/docs/reference/)
+- [Spring Boot](https://spring.io/projects/spring-boot) (Web, Security, Data JPA, Flyway)
+- [MySQL](https://www.mysql.com/)
 
 # 4. Demo
 ## 4.1. Requirements
